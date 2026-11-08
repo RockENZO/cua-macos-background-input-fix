@@ -67,5 +67,5 @@ An OpenMausBot installation that supports `CUA_DRIVER_PATH` can select a locally
 
 - Upstream: [CUA 0.41.2 source](https://github.com/trycua/cua/tree/86b5ea2d403017d224bb7a1057f1841668b0a68c), including the existing main-queue bridge and cross-Space lookup.
 - Our change: [keyboard patch](patches/keyboard-main-thread.patch), reproduced against that exact upstream source.
-- Newer releases and upstream main have not been certified with this patch. No upstream issue or pull request has been submitted as part of this publication.
+- Upstream contribution: [trycua/cua#6926](https://github.com/trycua/cua/pull/6926), submitted as a draft against main. The tagged-build validation above does not certify the main-based PR commit; current-commit checks and native E2E remain outstanding.
 - MIT licensed; upstream copyright and license are retained in [LICENSE](LICENSE).
